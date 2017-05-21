@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jfinal login demo</title>
+</head>
+<body>
+	<form action="/pagejava" method="post">
+		<!-- 
+	    		在jfinal中 使用getModel（）調用什麼方法，name中的传值必须为 
+	    		表名.字段名      当然 getmodel（） 第二个参数提供了 别名的方式
+	     -->
+		<label>帐号：</label><input name="name" type="text" value="">
+		<label>密码：</label><input name="pwd" type="text" value="">
+		<input type="submit" value="确定">
+	</form>
+	<label>${name!}</label>
+</body>
+</html>
