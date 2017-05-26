@@ -29,7 +29,8 @@ public class myConfig extends JFinalConfig {
 	@Override
 	public void configConstant(Constants me) {
 
-		me.setViewType(ViewType.JSP);
+	    //me.setViewType(ViewType.JSP);
+		me.setViewType(ViewType.JFINAL_TEMPLATE);
 		PropKit.use("popkit.txt");
 		me.setDevMode(PropKit.getBoolean("DevMode"));
 		System.out.println(PropKit.get("jdbcUrl"));

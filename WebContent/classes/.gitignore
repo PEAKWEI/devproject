@@ -2,5 +2,9 @@
 /Dao/
 /Model/
 /Test/
+/View/
 /demoConfig/
+/ehcache.xml
+/popkit.txt
 /services/
+/log4j.properties
